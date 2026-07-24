@@ -1,0 +1,10 @@
+import os
+from openai import AzureOpenAI
+
+client = AzureOpenAI(
+    api_version="2024-12-01-preview",
+    azure_endpoint="https://project63701508-resource.cognitiveservices.azure.com/",
+    api_key=subscription_key
+)
+
+"""2MscoWZk4tALuUPvIyiFe5pU5g38NOEhdY5KnzZd''''4xF3OXh8PY6hJQQJ99CGACfhMk5XJ3w3AAAAACOG7rqW"""
